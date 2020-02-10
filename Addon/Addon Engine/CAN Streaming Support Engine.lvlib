@@ -10,13 +10,15 @@
 	<Item Name="Main" Type="Folder">
 		<Item Name="Cleanup Engine Stream.vi" Type="VI" URL="../SubVIs/Cleanup Engine Stream.vi"/>
 		<Item Name="Create Engine Stream Refs.vi" Type="VI" URL="../SubVIs/Create Engine Stream Refs.vi"/>
+		<Item Name="Get Engine Stream Filter IDs.vi" Type="VI" URL="../SubVIs/Get Engine Stream Filter IDs.vi"/>
 		<Item Name="Main Engine Stream Process.vi" Type="VI" URL="../SubVIs/Main Engine Stream Process.vi"/>
 		<Item Name="Update Engine Stream Filter IDs.vi" Type="VI" URL="../SubVIs/Update Engine Stream Filter IDs.vi"/>
 	</Item>
-	<Item Name="SubVIs" Type="Folder"/>
+	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Format Debug String.vi" Type="VI" URL="../SubVIs/Format Debug String.vi"/>
+	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Engine Stream API Refs.ctl" Type="VI" URL="../Types/Engine Stream API Refs.ctl"/>
 		<Item Name="Engine Stream State.ctl" Type="VI" URL="../Types/Engine Stream State.ctl"/>
 	</Item>
-	<Item Name="Get Engine Stream Filter IDs.vi" Type="VI" URL="../SubVIs/Get Engine Stream Filter IDs.vi"/>
 </Library>
