@@ -14,6 +14,7 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Addon" Type="Folder">
 			<Item Name="CAN Streaming Support Engine.lvlib" Type="Library" URL="../Addon/Addon Engine/CAN Streaming Support Engine.lvlib"/>
+			<Item Name="CAN Streaming Support Shared.lvlib" Type="Library" URL="../Addon/Addon Shared/CAN Streaming Support Shared.lvlib"/>
 		</Item>
 		<Item Name="UIs" Type="Folder">
 			<Item Name="CAN Streaming Support Workspace Shared.lvlib" Type="Library" URL="../UIs/Workspace Shared/CAN Streaming Support Workspace Shared.lvlib"/>
