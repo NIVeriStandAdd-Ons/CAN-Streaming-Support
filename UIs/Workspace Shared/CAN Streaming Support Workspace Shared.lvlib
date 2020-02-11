@@ -14,9 +14,9 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="Process CAN Data.vi" Type="VI" URL="../SubVIs/Process CAN Data.vi"/>
+		<Item Name="Process CAN State.vi" Type="VI" URL="../SubVIs/Process CAN State.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="Host Stream API CAN State.ctl" Type="VI" URL="../Types/Host Stream API CAN State.ctl"/>
 		<Item Name="Host Stream API Refs.ctl" Type="VI" URL="../Types/Host Stream API Refs.ctl"/>
 	</Item>
 </Library>
