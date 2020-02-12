@@ -8,16 +8,26 @@
 
 </Property>
 	<Item Name="Main" Type="Folder">
-		<Item Name="Cleanup Host Stream.vi" Type="VI" URL="../SubVIs/Cleanup Host Stream.vi"/>
-		<Item Name="Create Host Stream Refs.vi" Type="VI" URL="../SubVIs/Create Host Stream Refs.vi"/>
-		<Item Name="Read Host Stream.vi" Type="VI" URL="../SubVIs/Read Host Stream.vi"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Create Host Stream Command Queue.vi" Type="VI" URL="../SubVIs/Create Host Stream Command Queue.vi"/>
+		<Item Name="Host Stream Engine.vi" Type="VI" URL="../SubVIs/Host Stream Engine.vi"/>
+		<Item Name="Close Host Stream Command Queue.vi" Type="VI" URL="../SubVIs/Close Host Stream Command Queue.vi"/>
+		<Item Name="Send Host Stream Command Start.vi" Type="VI" URL="../SubVIs/Send Host Stream Command Start.vi"/>
+		<Item Name="Send Host Stream Command Stop.vi" Type="VI" URL="../SubVIs/Send Host Stream Command Stop.vi"/>
+		<Item Name="Send Host Stream Command Exit.vi" Type="VI" URL="../SubVIs/Send Host Stream Command Exit.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Item Name="Cleanup Host Stream.vi" Type="VI" URL="../SubVIs/Cleanup Host Stream.vi"/>
+		<Item Name="Create Host Stream Refs.vi" Type="VI" URL="../SubVIs/Create Host Stream Refs.vi"/>
 		<Item Name="Process CAN Data.vi" Type="VI" URL="../SubVIs/Process CAN Data.vi"/>
 		<Item Name="Process CAN State.vi" Type="VI" URL="../SubVIs/Process CAN State.vi"/>
+		<Item Name="Read Host Stream.vi" Type="VI" URL="../SubVIs/Read Host Stream.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Host Stream API Data.ctl" Type="VI" URL="../Types/Host Stream API Data.ctl"/>
+		<Item Name="Host Stream API Engine State.ctl" Type="VI" URL="../Types/Host Stream API Engine State.ctl"/>
+		<Item Name="Host Stream API Queue Cmd.ctl" Type="VI" URL="../Types/Host Stream API Queue Cmd.ctl"/>
+		<Item Name="Host Stream API Queue Type.ctl" Type="VI" URL="../Types/Host Stream API Queue Type.ctl"/>
 		<Item Name="Host Stream API Refs.ctl" Type="VI" URL="../Types/Host Stream API Refs.ctl"/>
 	</Item>
 </Library>
