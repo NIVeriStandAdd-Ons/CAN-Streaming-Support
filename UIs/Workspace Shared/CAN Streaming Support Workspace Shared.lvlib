@@ -29,5 +29,6 @@
 		<Item Name="Host Stream API Queue Cmd.ctl" Type="VI" URL="../Types/Host Stream API Queue Cmd.ctl"/>
 		<Item Name="Host Stream API Queue Type.ctl" Type="VI" URL="../Types/Host Stream API Queue Type.ctl"/>
 		<Item Name="Host Stream API Refs.ctl" Type="VI" URL="../Types/Host Stream API Refs.ctl"/>
+		<Item Name="Host Stream API Type Filter.ctl" Type="VI" URL="../Types/Host Stream API Type Filter.ctl"/>
 	</Item>
 </Library>
