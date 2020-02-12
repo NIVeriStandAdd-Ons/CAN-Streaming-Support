@@ -25,6 +25,7 @@
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Host Stream API Data.ctl" Type="VI" URL="../Types/Host Stream API Data.ctl"/>
+		<Item Name="Host Stream API Direction Filter.ctl" Type="VI" URL="../Types/Host Stream API Direction Filter.ctl"/>
 		<Item Name="Host Stream API Engine State.ctl" Type="VI" URL="../Types/Host Stream API Engine State.ctl"/>
 		<Item Name="Host Stream API Queue Cmd.ctl" Type="VI" URL="../Types/Host Stream API Queue Cmd.ctl"/>
 		<Item Name="Host Stream API Queue Type.ctl" Type="VI" URL="../Types/Host Stream API Queue Type.ctl"/>
