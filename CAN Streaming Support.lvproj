@@ -19,6 +19,7 @@
 		<Item Name="UIs" Type="Folder">
 			<Item Name="CAN Streaming Support Workspace Shared.lvlib" Type="Library" URL="../UIs/Workspace Shared/CAN Streaming Support Workspace Shared.lvlib"/>
 		</Item>
+		<Item Name="Host Stream API Host Engine Parameters.ctl" Type="VI" URL="../UIs/Workspace Shared/Types/Host Stream API Host Engine Parameters.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="_XNET Convert List From Array To Comma.vi" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/_XNET Convert List From Array To Comma.vi"/>
