@@ -17,8 +17,11 @@
 		<Item Name="Send Host Stream Command Exit.vi" Type="VI" URL="../SubVIs/Send Host Stream Command Exit.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="Convert Filter IDs String to Array.vi" Type="VI" URL="../SubVIs/Convert Filter IDs String to Array.vi"/>
 		<Item Name="Cleanup Host Stream.vi" Type="VI" URL="../SubVIs/Cleanup Host Stream.vi"/>
 		<Item Name="Create Host Stream Refs.vi" Type="VI" URL="../SubVIs/Create Host Stream Refs.vi"/>
+		<Item Name="Convert Filter IDs Array to String.vi" Type="VI" URL="../SubVIs/Convert Filter IDs Array to String.vi"/>
 		<Item Name="Process CAN Data.vi" Type="VI" URL="../SubVIs/Process CAN Data.vi"/>
 		<Item Name="Process CAN State.vi" Type="VI" URL="../SubVIs/Process CAN State.vi"/>
 		<Item Name="Read Host Stream.vi" Type="VI" URL="../SubVIs/Read Host Stream.vi"/>
