@@ -21,7 +21,7 @@
 		<Item Name="Format Debug String.vi" Type="VI" URL="../SubVIs/Format Debug String.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
-		<Item Name="Engine Stream API Refs.ctl" Type="VI" URL="../Types/Engine Stream API Refs.ctl"/>
+		<Item Name="Engine Stream Refs.ctl" Type="VI" URL="../Types/Engine Stream Refs.ctl"/>
 		<Item Name="Engine Stream State.ctl" Type="VI" URL="../Types/Engine Stream State.ctl"/>
 	</Item>
 </Library>
