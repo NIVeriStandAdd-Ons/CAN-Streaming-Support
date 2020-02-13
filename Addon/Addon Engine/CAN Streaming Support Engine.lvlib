@@ -8,11 +8,13 @@
 
 </Property>
 	<Item Name="Main" Type="Folder">
-		<Item Name="Cleanup Engine Stream.vi" Type="VI" URL="../SubVIs/Cleanup Engine Stream.vi"/>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Create Engine Stream Refs.vi" Type="VI" URL="../SubVIs/Create Engine Stream Refs.vi"/>
-		<Item Name="Get Engine Stream Filter.vi" Type="VI" URL="../SubVIs/Get Engine Stream Filter.vi"/>
 		<Item Name="Main Engine Stream Process.vi" Type="VI" URL="../SubVIs/Main Engine Stream Process.vi"/>
-		<Item Name="Update Engine Stream Filter.vi" Type="VI" URL="../SubVIs/Update Engine Stream Filter.vi"/>
+		<Item Name="Cleanup Engine Stream.vi" Type="VI" URL="../SubVIs/Cleanup Engine Stream.vi"/>
+		<Item Name="Get Engine Stream Filter.vi" Type="VI" URL="../SubVIs/Get Engine Stream Filter.vi"/>
+		<Item Name="Set Engine Stream Filter.vi" Type="VI" URL="../SubVIs/Set Engine Stream Filter.vi"/>
+		<Item Name="Reset Engine Stream Filter.vi" Type="VI" URL="../SubVIs/Reset Engine Stream Filter.vi"/>
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="CAN Frame Filter.vi" Type="VI" URL="../SubVIs/CAN Frame Filter.vi"/>
