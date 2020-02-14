@@ -9,7 +9,7 @@
 </Property>
 	<Item Name="Main" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="Create Host Stream Command Queue.vi" Type="VI" URL="../SubVIs/Create Host Stream Command Queue.vi"/>
+		<Item Name="Create Host Stream Queues.vi" Type="VI" URL="../SubVIs/Create Host Stream Queues.vi"/>
 		<Item Name="Main Engine Host Stream.vi" Type="VI" URL="../SubVIs/Main Engine Host Stream.vi"/>
 		<Item Name="Close Host Stream Command Queue.vi" Type="VI" URL="../SubVIs/Close Host Stream Command Queue.vi"/>
 		<Item Name="Send Host Stream Command Start.vi" Type="VI" URL="../SubVIs/Send Host Stream Command Start.vi"/>
@@ -26,12 +26,14 @@
 		<Item Name="Process CAN State.vi" Type="VI" URL="../SubVIs/Process CAN State.vi"/>
 		<Item Name="Read Host Stream.vi" Type="VI" URL="../SubVIs/Read Host Stream.vi"/>
 		<Item Name="Convert Time to UTC String.vi" Type="VI" URL="../SubVIs/Convert Time to UTC String.vi"/>
+		<Item Name="Convert Frame Array to String Array.vi" Type="VI" URL="../SubVIs/Convert Frame Array to String Array.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Host Stream Data.ctl" Type="VI" URL="../Types/Host Stream Data.ctl"/>
 		<Item Name="Host Stream Engine Parameters.ctl" Type="VI" URL="../Types/Host Stream Engine Parameters.ctl"/>
 		<Item Name="Host Stream Engine State.ctl" Type="VI" URL="../Types/Host Stream Engine State.ctl"/>
 		<Item Name="Host Stream Queue Command.ctl" Type="VI" URL="../Types/Host Stream Queue Command.ctl"/>
+		<Item Name="Host Stream Queue Refs.ctl" Type="VI" URL="../Types/Host Stream Queue Refs.ctl"/>
 		<Item Name="Host Stream Queue Type.ctl" Type="VI" URL="../Types/Host Stream Queue Type.ctl"/>
 		<Item Name="Host Stream Refs.ctl" Type="VI" URL="../Types/Host Stream Refs.ctl"/>
 	</Item>
