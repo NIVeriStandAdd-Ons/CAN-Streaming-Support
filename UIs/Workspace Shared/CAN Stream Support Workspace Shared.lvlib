@@ -11,7 +11,6 @@
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="Create Host Stream Queues.vi" Type="VI" URL="../SubVIs/Create Host Stream Queues.vi"/>
 		<Item Name="Main Engine Host Stream.vi" Type="VI" URL="../SubVIs/Main Engine Host Stream.vi"/>
-		<Item Name="Close Host Stream Command Queue.vi" Type="VI" URL="../SubVIs/Close Host Stream Command Queue.vi"/>
 		<Item Name="Send Host Stream Command Start.vi" Type="VI" URL="../SubVIs/Send Host Stream Command Start.vi"/>
 		<Item Name="Send Host Stream Command Stop.vi" Type="VI" URL="../SubVIs/Send Host Stream Command Stop.vi"/>
 		<Item Name="Send Host Stream Command Exit.vi" Type="VI" URL="../SubVIs/Send Host Stream Command Exit.vi"/>
@@ -23,6 +22,12 @@
 		<Item Name="Cleanup Host Stream.vi" Type="VI" URL="../SubVIs/Cleanup Host Stream.vi"/>
 		<Item Name="Create Host Stream Refs.vi" Type="VI" URL="../SubVIs/Create Host Stream Refs.vi"/>
 		<Item Name="Process CAN Data.vi" Type="VI" URL="../SubVIs/Process CAN Data.vi"/>
+		<Item Name="Convert BIN to TXT File.vi" Type="VI" URL="../SubVIs/Convert BIN to TXT File.vi"/>
+		<Item Name="Create Bus Log File.vi" Type="VI" URL="../SubVIs/Create Bus Log File.vi"/>
+		<Item Name="Get Engine Trigger State.vi" Type="VI" URL="../SubVIs/Get Engine Trigger State.vi"/>
+		<Item Name="Get Next Bus Engine State.vi" Type="VI" URL="../SubVIs/Get Next Bus Engine State.vi"/>
+		<Item Name="Get Next Log Engine State.vi" Type="VI" URL="../SubVIs/Get Next Log Engine State.vi"/>
+		<Item Name="Write to Bus Log File.vi" Type="VI" URL="../SubVIs/Write to Bus Log File.vi"/>
 		<Item Name="Process CAN State.vi" Type="VI" URL="../SubVIs/Process CAN State.vi"/>
 		<Item Name="Read Host Stream.vi" Type="VI" URL="../SubVIs/Read Host Stream.vi"/>
 		<Item Name="Convert Time to UTC String.vi" Type="VI" URL="../SubVIs/Convert Time to UTC String.vi"/>
@@ -30,6 +35,7 @@
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Host Stream Data.ctl" Type="VI" URL="../Types/Host Stream Data.ctl"/>
+		<Item Name="Host Stream Engine Logging State.ctl" Type="VI" URL="../Types/Host Stream Engine Logging State.ctl"/>
 		<Item Name="Host Stream Engine Parameters.ctl" Type="VI" URL="../Types/Host Stream Engine Parameters.ctl"/>
 		<Item Name="Host Stream Engine State.ctl" Type="VI" URL="../Types/Host Stream Engine State.ctl"/>
 		<Item Name="Host Stream Queue Command.ctl" Type="VI" URL="../Types/Host Stream Queue Command.ctl"/>
