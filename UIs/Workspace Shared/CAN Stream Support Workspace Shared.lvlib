@@ -25,6 +25,7 @@
 		<Item Name="Process CAN Data.vi" Type="VI" URL="../SubVIs/Process CAN Data.vi"/>
 		<Item Name="Process CAN State.vi" Type="VI" URL="../SubVIs/Process CAN State.vi"/>
 		<Item Name="Read Host Stream.vi" Type="VI" URL="../SubVIs/Read Host Stream.vi"/>
+		<Item Name="Convert Time to UTC String.vi" Type="VI" URL="../SubVIs/Convert Time to UTC String.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Host Stream Data.ctl" Type="VI" URL="../Types/Host Stream Data.ctl"/>
