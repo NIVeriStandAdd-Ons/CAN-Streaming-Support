@@ -18,7 +18,7 @@
 	</Item>
 	<Item Name="SubVIs" Type="Folder">
 		<Item Name="CAN Frame Filter.vi" Type="VI" URL="../SubVIs/CAN Frame Filter.vi"/>
-		<Item Name="Format Debug String.vi" Type="VI" URL="../SubVIs/Format Debug String.vi"/>
+		<Item Name="Engine Steam Format Debug String.vi" Type="VI" URL="../SubVIs/Engine Steam Format Debug String.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
 		<Item Name="Engine Stream Refs.ctl" Type="VI" URL="../Types/Engine Stream Refs.ctl"/>
