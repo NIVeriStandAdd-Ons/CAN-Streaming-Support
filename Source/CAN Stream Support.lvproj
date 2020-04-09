@@ -19,7 +19,6 @@
 		<Item Name="UIs" Type="Folder">
 			<Item Name="CAN Stream Support Workspace Shared.lvlib" Type="Library" URL="../UIs/Workspace Shared/CAN Stream Support Workspace Shared.lvlib"/>
 		</Item>
-		<Item Name="Engine Stream Port Settings.ctl" Type="VI" URL="../Addon/Addon Engine/Types/Engine Stream Port Settings.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="XNET CAN Comm State.ctl" Type="VI" URL="/&lt;vilib&gt;/xnet/xnet.llb/XNET CAN Comm State.ctl"/>

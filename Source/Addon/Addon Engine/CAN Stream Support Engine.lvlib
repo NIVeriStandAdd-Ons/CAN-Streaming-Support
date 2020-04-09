@@ -21,6 +21,7 @@
 		<Item Name="Engine Steam Format Debug String.vi" Type="VI" URL="../SubVIs/Engine Steam Format Debug String.vi"/>
 	</Item>
 	<Item Name="Types" Type="Folder">
+		<Item Name="Engine Stream Port Settings.ctl" Type="VI" URL="../Types/Engine Stream Port Settings.ctl"/>
 		<Item Name="Engine Stream Refs.ctl" Type="VI" URL="../Types/Engine Stream Refs.ctl"/>
 		<Item Name="Engine Stream State.ctl" Type="VI" URL="../Types/Engine Stream State.ctl"/>
 	</Item>
